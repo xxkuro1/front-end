@@ -36,6 +36,7 @@ const Home =  () => {
           <Text style={styles.name}>{name}</Text>
           <Text style={styles.description}>{description}</Text>
           <Text style={styles.posted}>{date}</Text>
+          <Text style={styles.posted}>{date}</Text>
           <TouchableOpacity style={styles.deleteBtn} ><Text style={styles.textButton} onPress={()=>deleteData(id)}>Delete</Text></TouchableOpacity>
         </View>
         )
